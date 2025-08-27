@@ -1,0 +1,18 @@
+<?php 
+
+echo "kelipatan 2 dimulai dari angka 2 sejumlah 10 deret <br>";
+
+$angka = 2;
+for ($i = 1; $i <= 10; $i++) {
+    echo $angka . " ";
+    $angka += 2;
+}
+
+echo "<br> kelipatan 2 ditambah pengurangan 1 dimulai dari angka 12 sejumlah 10 deret <br>";
+
+$angka = 12;
+for ($i = 1; $i <= 10; $i++) {
+    echo ($angka - 1) . " ";
+    $angka += 2;
+}
+?>
